@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, Text } from 'react-native';
+import React from "react";
+import { View, Text } from "react-native";
 
 export default function ChatScreen({ route }) {
   const { name } = route.params;
@@ -10,4 +10,3 @@ export default function ChatScreen({ route }) {
     </View>
   );
 }
-

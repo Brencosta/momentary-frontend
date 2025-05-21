@@ -1,11 +1,11 @@
-import React, { useContext } from 'react';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { AuthContext } from '../contexts/AuthContext';
-import LoginScreen from '../screens/LoginScreen';
-import RegisterScreen from '../screens/RegisterScreen';
-import ChatListScreen from '../screens/ChatListScreen';
-import ChatScreen from '../screens/ChatScreen';
-import ProfileScreen from '../screens/ProfileScreen';
+import React, { useContext } from "react";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import { AuthContext } from "../contexts/AuthContext";
+import LoginScreen from "../screens/LoginScreen";
+import RegisterScreen from "../screens/RegisterScreen";
+import ChatListScreen from "../screens/ChatListScreen";
+import ChatScreen from "../screens/ChatScreen";
+import ProfileScreen from "../screens/ProfileScreen";
 
 const Stack = createNativeStackNavigator();
 
